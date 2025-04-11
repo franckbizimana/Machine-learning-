@@ -7,7 +7,7 @@ st.title("Real Estate Price Predictor")
 st.write("This app predicts the price of a house using a trained machine learning model.")
 
 # Load model
-with open("models/LRmodel.pkl", "rb") as file:
+with open("Real_estate_solution/models/LRmodel.pkl", "rb") as file:
     model = pickle.load(file)
 
 # User form
