@@ -10,7 +10,7 @@ st.title("Mall Customer Segmentation Model")
 st.write("Predict customer group using Age, Income, and Spending Score.")
 
 # Load model
-with open("models/Kmodel.pkl", "rb") as file:
+with open("Unsupervised_Clustering/models/Kmodel.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Input form
