@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns  # FIX: Seaborn now imported
 
 # Load model
-with open("models/RFmodel.pkl", "rb") as f:
+with open("Credit_Eligibility_Application_with_Streamlit-main/models/RFmodel.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Page config
