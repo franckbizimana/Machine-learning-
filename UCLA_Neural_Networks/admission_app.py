@@ -7,7 +7,7 @@ st.title("University Admission Predictor")
 st.write("Enter your academic profile to estimate your admission chances.")
 
 # Load model
-with open("models/MLPmodel.pkl", "rb") as file:
+with open("UCLA_Neural_Networks/models/MLPmodel.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Input form
