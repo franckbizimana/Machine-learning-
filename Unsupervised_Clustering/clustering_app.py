@@ -33,7 +33,7 @@ if submitted:
 
     # Try loading full dataset for plotting
     try:
-        df = pd.read_csv("data/mall_customers.csv")
+        df = pd.read_csv("Unsupervised_Clustering/data/mall_customers.csv")
         df = df.drop(columns=['Customer_ID', 'Gender'], errors='ignore')
         features = df[['Age', 'Annual_Income', 'Spending_Score']]
         df['Cluster'] = model.predict(features)
