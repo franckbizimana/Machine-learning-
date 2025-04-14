@@ -2,7 +2,7 @@
 
 This app is built using Streamlit and deployed on Streamlit Community Cloud.
 
-[Visit the app here](https://admission-chance-predictor.streamlit.app/)
+[Visit the app here](https://admission-a.streamlit.app/)
 
 **password**: `streamlit`
 
