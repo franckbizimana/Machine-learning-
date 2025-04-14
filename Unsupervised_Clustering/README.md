@@ -2,7 +2,7 @@
 
 This app is built with Streamlit and demonstrates an unsupervised learning model (KMeans) applied to a dataset for customer segmentation or feature grouping.
 
-[Launch the App](https://clustering-app.streamlit.app)
+[Launch the App](https://clustering-a.streamlit.app/)
 
 ## Features
 - Upload or view data
